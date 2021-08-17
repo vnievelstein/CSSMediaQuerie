@@ -1,0 +1,92 @@
+main{
+    background-color: lavender;
+
+    color: #333;
+
+    border-color: rgb(167, 145, 182);
+    border-style:ridge;
+    border-width: 1em;
+    border-radius: 01em;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+
+    /* dit doet hetzelfde als bovenstaand
+    padding: 10 10 30; 
+    */
+    
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-bottom:50px;
+    margin-left:50px;
+}
+header{
+    color:rgb(34, 103, 240);
+
+    border-color:lawngreen;
+    border-style:double;
+    border-width: 0.6em;
+    border-radius: 01em;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+    margin-top: 20px;;
+    margin-right: 50px;
+    margin-bottom:50px;
+    margin-left:20px;
+}
+article{
+    margin-top: 20px;;
+    margin-right: 50px;
+    margin-bottom:50px;
+    margin-left:20px;
+}
+p{
+    margin: 0 width 20px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+li a{
+    display:inline;
+    color:greenyellow;
+    padding: 10px 10px;
+    margin: 0px;
+    width: 60px;
+    text-decoration: none;
+    background-color:rgb(159, 179, 159);
+} 
+li a:hover{
+    background-color:grey;
+    color:rgb(72, 34, 240);
+} 
+li {
+    display: inline;
+  } 
+
+  /* Media Queries */
+
+  @media screen and (max-width: 700px) {
+      main{
+          background-color: rgb(164, 237, 237);
+      }
+  }
+  @media (min-width: 1024px) {
+      body{
+          background-color: burlywood;
+      }
+      main{
+        color:crimson
+      }
+      p{
+          font-size: small;
+          line-height: 2em;
+      }
+  } 
